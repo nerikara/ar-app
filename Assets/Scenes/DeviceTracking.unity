@@ -510,6 +510,7 @@ GameObject:
   - component: {fileID: 1929790161}
   - component: {fileID: 1929790160}
   - component: {fileID: 1929790162}
+  - component: {fileID: 1929790163}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -560,72 +561,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PointCloudPrefab: {fileID: 2707436242662760624, guid: a3409050416e142eda7d19bb5aa77f36,
     type: 3}
---- !u!1001 &4857290098088218481
-PrefabInstance:
+--- !u!114 &1929790163
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1991949112961972824, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2707436242662760624, guid: a3409050416e142eda7d19bb5aa77f36,
-        type: 3}
-      propertyPath: m_Name
-      value: AR Default Point Cloud
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a3409050416e142eda7d19bb5aa77f36, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929790159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 6261074611594636242, guid: db2664afdd5b742f1805d0c1a9ad3f60,
+    type: 3}
+  m_DetectionMode: 1
